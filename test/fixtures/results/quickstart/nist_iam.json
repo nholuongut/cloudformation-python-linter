@@ -1,0 +1,106 @@
+[
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_iam.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 57
+            },
+            "Path": [
+                "Resources",
+                "rIAMAdminProfile",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 57
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rIAMAdminRole), dependency already enforced by a \"Ref\" at Resources/rIAMAdminProfile/Properties/Roles/0/Ref",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_iam.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 137
+            },
+            "Path": [
+                "Resources",
+                "rInstanceOpsProfile",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 137
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rInstanceOpsRole), dependency already enforced by a \"Ref\" at Resources/rInstanceOpsProfile/Properties/Roles/0/Ref",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_iam.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 236
+            },
+            "Path": [
+                "Resources",
+                "rReadOnlyAdminProfile",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 236
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rReadOnlyAdminRole), dependency already enforced by a \"Ref\" at Resources/rReadOnlyAdminProfile/Properties/Roles/0/Ref",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_iam.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 312
+            },
+            "Path": [
+                "Resources",
+                "rSysAdminProfile",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 312
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rSysAdminRole), dependency already enforced by a \"Ref\" at Resources/rSysAdminProfile/Properties/Roles/0/Ref",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    }
+]

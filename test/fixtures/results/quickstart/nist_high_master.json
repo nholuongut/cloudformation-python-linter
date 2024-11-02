@@ -1,0 +1,997 @@
+[
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 30,
+                "LineNumber": 11
+            },
+            "Path": [
+                "Conditions",
+                "LoadConfigRulesTemplateAuto"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 11
+            }
+        },
+        "Message": "Condition LoadConfigRulesTemplateAuto not used",
+        "Rule": {
+            "Description": "Making sure the conditions defined are used",
+            "Id": "W8001",
+            "ShortDescription": "Check if Conditions are Used",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 278
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 278
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pAppPrivateSubnetB/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 278
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 278
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pDBPrivateSubnetA/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 278
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 278
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pDBPrivateSubnetB/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 278
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 278
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pDMZSubnetA/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 278
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 278
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pDMZSubnetB/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 278
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 278
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pAppPrivateSubnetA/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 278
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 278
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pProductionVPC/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 279
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                1
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 279
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ManagementVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pDeepSecurityAgentDownload/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 279
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "DependsOn",
+                1
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 279
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ManagementVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ApplicationTemplate/Properties/Parameters/pDeepSecurityHeartbeat/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 293
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pAppPrivateSubnetA",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 293
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pAppPrivateSubnetA/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 297
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pAppPrivateSubnetB",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 297
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pAppPrivateSubnetB/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 311
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pDBPrivateSubnetA",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 311
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pDBPrivateSubnetA/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 315
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pDBPrivateSubnetB",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 315
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pDBPrivateSubnetB/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 320
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pDMZSubnetA",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 320
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pDMZSubnetA/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 324
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pDMZSubnetB",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 324
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pDMZSubnetB/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 345
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pProductionVPC",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 345
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pProductionVPC/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 353
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "Parameters",
+                "pSecurityAlarmTopic",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 353
+            }
+        },
+        "Message": "GetAtt to resource \"LoggingTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ApplicationTemplate/Properties/Parameters/pSecurityAlarmTopic/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 377
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 377
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 384
+            },
+            "Path": [
+                "Resources",
+                "ApplicationTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 384
+            }
+        },
+        "Message": "Property Resources/ApplicationTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 401
+            },
+            "Path": [
+                "Resources",
+                "ConfigRulesTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 401
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 408
+            },
+            "Path": [
+                "Resources",
+                "ConfigRulesTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 408
+            }
+        },
+        "Message": "Property Resources/ConfigRulesTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 414
+            },
+            "Path": [
+                "Resources",
+                "IamTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 414
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 421
+            },
+            "Path": [
+                "Resources",
+                "IamTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 421
+            }
+        },
+        "Message": "Property Resources/IamTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 435
+            },
+            "Path": [
+                "Resources",
+                "LoggingTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 435
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 442
+            },
+            "Path": [
+                "Resources",
+                "LoggingTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 442
+            }
+        },
+        "Message": "Property Resources/LoggingTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 445
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 445
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ManagementVpcTemplate/Properties/Parameters/pRouteTableProdPublic/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 445
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 445
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ManagementVpcTemplate/Properties/Parameters/pRouteTableProdPrivate/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 445
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 445
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (ProductionVpcTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/ManagementVpcTemplate/Properties/Parameters/pProductionVPC/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 490
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "Properties",
+                "Parameters",
+                "pProductionVPC",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 490
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ManagementVpcTemplate/Properties/Parameters/pProductionVPC/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 498
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "Properties",
+                "Parameters",
+                "pRouteTableProdPrivate",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 498
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ManagementVpcTemplate/Properties/Parameters/pRouteTableProdPrivate/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 21,
+                "LineNumber": 502
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "Properties",
+                "Parameters",
+                "pRouteTableProdPublic",
+                "Fn::GetAtt"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 502
+            }
+        },
+        "Message": "GetAtt to resource \"ProductionVpcTemplate\" that may not be available when condition \"EulaAccepted\" is False at Resources/ManagementVpcTemplate/Properties/Parameters/pRouteTableProdPublic/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.",
+            "Id": "W1001",
+            "ShortDescription": "Ref/GetAtt to resource that is available when conditions are applied",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 516
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 516
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 523
+            },
+            "Path": [
+                "Resources",
+                "ManagementVpcTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 523
+            }
+        },
+        "Message": "Property Resources/ManagementVpcTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 570
+            },
+            "Path": [
+                "Resources",
+                "ProductionVpcTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 570
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_high_master.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 577
+            },
+            "Path": [
+                "Resources",
+                "ProductionVpcTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 577
+            }
+        },
+        "Message": "Property Resources/ProductionVpcTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    }
+]

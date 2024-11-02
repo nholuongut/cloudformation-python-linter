@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/ResourceTypes/AWS::ElastiCache::ReplicationGroup/Properties/SecurityGroupIds/Value",
+    "value": {
+      "ListValueType": "AWS::EC2::SecurityGroup.NamesOrGroupIds",
+      "ValueType": "AWS::EC2::SecurityGroup.NameOrGroupId"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ResourceTypes/AWS::ElastiCache::ReplicationGroup/Properties/NumCacheClusters/Value",
+    "value": {
+      "ValueType": "AWS::ElastiCache::ReplicationGroup.NumCacheClusters"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ResourceTypes/AWS::ElastiCache::ReplicationGroup/Properties/ReplicasPerNodeGroup/Value",
+    "value": {
+      "ValueType": "AWS::ElastiCache::ReplicationGroup.ReplicasPerNodeGroup"
+    }
+  }
+]

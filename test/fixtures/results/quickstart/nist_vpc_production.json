@@ -1,0 +1,1804 @@
+[
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 25,
+                "LineNumber": 99
+            },
+            "Path": [
+                "Parameters",
+                "pAppPrivateSubnetACIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 99
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pAppPrivateSubnetACIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 25,
+                "LineNumber": 103
+            },
+            "Path": [
+                "Parameters",
+                "pAppPrivateSubnetBCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 103
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pAppPrivateSubnetBCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 107
+            },
+            "Path": [
+                "Parameters",
+                "pBastionSSHCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 107
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pBastionSSHCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 24,
+                "LineNumber": 111
+            },
+            "Path": [
+                "Parameters",
+                "pDBPrivateSubnetACIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 111
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pDBPrivateSubnetACIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 24,
+                "LineNumber": 115
+            },
+            "Path": [
+                "Parameters",
+                "pDBPrivateSubnetBCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 115
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pDBPrivateSubnetBCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 119
+            },
+            "Path": [
+                "Parameters",
+                "pDMZSubnetACIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 119
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pDMZSubnetACIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 123
+            },
+            "Path": [
+                "Parameters",
+                "pDMZSubnetBCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 123
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pDMZSubnetBCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 135
+            },
+            "Path": [
+                "Parameters",
+                "pManagementCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 135
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pManagementCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 149
+            },
+            "Path": [
+                "Parameters",
+                "pProductionCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 149
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pProductionCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 308
+            },
+            "Path": [
+                "Resources",
+                "rGWAttachmentProdIGW",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 308
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rIGWProd), dependency already enforced by a \"Ref\" at Resources/rGWAttachmentProdIGW/Properties/InternetGatewayId/Ref",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 383
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLEgressPublic",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 383
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLEgressPublic/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 384
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLEgressPublic",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 384
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLEgressPublic/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 385
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLEgressPublic",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 385
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLEgressPublic/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 387
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLEgressPublic",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 387
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLEgressPublic/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 396
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLfromPrivEgress",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 396
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLfromPrivEgress/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 397
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLfromPrivEgress",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 397
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLfromPrivEgress/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 398
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLfromPrivEgress",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 398
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLfromPrivEgress/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 400
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowALLfromPrivEgress",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 400
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowALLfromPrivEgress/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 408
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllReturnTCP",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 408
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllReturnTCP/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 409
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllReturnTCP",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 409
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllReturnTCP/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 410
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllReturnTCP",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 410
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllReturnTCP/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 412
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllReturnTCP",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 412
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllReturnTCP/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 421
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternal",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 421
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternal/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 422
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternal",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 422
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternal/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 423
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternal",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 423
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternal/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 425
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternal",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 425
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternal/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 434
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternalEgress",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 434
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternalEgress/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 435
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternalEgress",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 435
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternalEgress/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 436
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternalEgress",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 436
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternalEgress/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 438
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowAllTCPInternalEgress",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 438
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowAllTCPInternalEgress/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 446
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowBastionSSHAccess",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 446
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowBastionSSHAccess/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 447
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowBastionSSHAccess",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 447
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowBastionSSHAccess/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 448
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowBastionSSHAccess",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 448
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowBastionSSHAccess/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 450
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowBastionSSHAccess",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 450
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowBastionSSHAccess/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 459
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowEgressReturnTCP",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 459
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowEgressReturnTCP/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 460
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowEgressReturnTCP",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 460
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowEgressReturnTCP/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 461
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowEgressReturnTCP",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 461
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowEgressReturnTCP/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 463
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowEgressReturnTCP",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 463
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowEgressReturnTCP/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 471
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPSPublic",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 471
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPSPublic/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 472
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPSPublic",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 472
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPSPublic/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 473
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPSPublic",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 473
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPSPublic/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 475
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPSPublic",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 475
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPSPublic/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 484
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPfromProd",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 484
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPfromProd/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 485
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPfromProd",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 485
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPfromProd/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 486
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPfromProd",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 486
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPfromProd/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 488
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowHTTPfromProd",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 488
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowHTTPfromProd/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 497
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowMgmtAccessSSHtoPrivate",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 497
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowMgmtAccessSSHtoPrivate/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 498
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowMgmtAccessSSHtoPrivate",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 498
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowMgmtAccessSSHtoPrivate/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 499
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowMgmtAccessSSHtoPrivate",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 499
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowMgmtAccessSSHtoPrivate/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 501
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowMgmtAccessSSHtoPrivate",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 501
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowMgmtAccessSSHtoPrivate/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 509
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowReturnTCPPriv",
+                "Properties",
+                "PortRange",
+                "From"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 509
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowReturnTCPPriv/Properties/PortRange/From should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 11,
+                "LineNumber": 510
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowReturnTCPPriv",
+                "Properties",
+                "PortRange",
+                "To"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 510
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowReturnTCPPriv/Properties/PortRange/To should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 511
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowReturnTCPPriv",
+                "Properties",
+                "Protocol"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 511
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowReturnTCPPriv/Properties/Protocol should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 513
+            },
+            "Path": [
+                "Resources",
+                "rNACLRuleAllowReturnTCPPriv",
+                "Properties",
+                "RuleNumber"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 513
+            }
+        },
+        "Message": "Property Resources/rNACLRuleAllowReturnTCPPriv/Properties/RuleNumber should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 549
+            },
+            "Path": [
+                "Resources",
+                "rNatInstanceTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 549
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 553
+            },
+            "Path": [
+                "Resources",
+                "rNatInstanceTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 553
+            }
+        },
+        "Message": "Property Resources/rNatInstanceTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 623
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupMgmtBastion",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 623
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupMgmtBastion/Properties/SecurityGroupIngress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 625
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupMgmtBastion",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 625
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupMgmtBastion/Properties/SecurityGroupIngress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 641
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupSSHFromProd",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 641
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupSSHFromProd/Properties/SecurityGroupIngress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 643
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupSSHFromProd",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 643
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupSSHFromProd/Properties/SecurityGroupIngress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 659
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 659
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 661
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 661
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 664
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                1,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 664
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/1/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 666
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                1,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 666
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/1/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 25,
+                "LineNumber": 680
+            },
+            "Path": [
+                "Resources",
+                "rVPCProduction",
+                "Properties",
+                "EnableDnsHostnames"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 680
+            }
+        },
+        "Message": "Property Resources/rVPCProduction/Properties/EnableDnsHostnames should be of type Boolean",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_production.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 681
+            },
+            "Path": [
+                "Resources",
+                "rVPCProduction",
+                "Properties",
+                "EnableDnsSupport"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 681
+            }
+        },
+        "Message": "Property Resources/rVPCProduction/Properties/EnableDnsSupport should be of type Boolean",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    }
+]

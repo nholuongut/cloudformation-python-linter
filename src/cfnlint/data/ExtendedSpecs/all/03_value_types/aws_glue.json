@@ -1,0 +1,97 @@
+[
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Connection.ConnectionInput.ConnectionType",
+    "value": {
+      "AllowedValues": [
+        "JDBC",
+        "SFTP"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Crawler.SchemaChangePolicy.DeleteBehavior",
+    "value": {
+      "AllowedValues": [
+        "DELETE_FROM_DATABASE",
+        "DEPRECATE_IN_DATABASE",
+        "LOG"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Crawler.SchemaChangePolicy.UpdateBehavior",
+    "value": {
+      "AllowedValues": [
+        "LOG",
+        "UPDATE_IN_DATABASE"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Table.TableInput.TableType",
+    "value": {
+      "AllowedValues": [
+        "EXTERNAL_TABLE",
+        "VIRTUAL_VIEW"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Trigger.Predicate.Logical",
+    "value": {
+      "AllowedValues": [
+        "AND"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Trigger.Condition.LogicalOperator",
+    "value": {
+      "AllowedValues": [
+        "EQUALS"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Trigger.Condition.State",
+    "value": {
+      "AllowedValues": [
+        "SUCCEEDED"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Trigger.Type",
+    "value": {
+      "AllowedValues": [
+        "CONDITIONAL",
+        "ON_DEMAND",
+        "SCHEDULED"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::Job.NumberOfWorkers",
+    "value": {
+      "NumberMax": 299,
+      "NumberMin": 0
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ValueTypes/AWS::Glue::MLTransform.MaxCapacity",
+    "value": {
+      "NumberMax": 100,
+      "NumberMin": 1
+    }
+  }
+]

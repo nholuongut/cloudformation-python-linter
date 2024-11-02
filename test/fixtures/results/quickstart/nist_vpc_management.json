@@ -1,0 +1,967 @@
+[
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 22,
+                "LineNumber": 12
+            },
+            "Path": [
+                "Conditions",
+                "cRegionIsUsGovWest1"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 12
+            }
+        },
+        "Message": "Condition cRegionIsUsGovWest1 not used",
+        "Rule": {
+            "Description": "Making sure the conditions defined are used",
+            "Id": "W8001",
+            "ShortDescription": "Check if Conditions are Used",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 13,
+                "LineNumber": 45
+            },
+            "Path": [
+                "Mappings",
+                "Parameters"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 45
+            }
+        },
+        "Message": "Mapping 'Parameters' is defined but not used",
+        "Rule": {
+            "Description": "Making sure the mappings defined are used",
+            "Id": "W7001",
+            "ShortDescription": "Check if Mappings are Used",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 192
+            },
+            "Path": [
+                "Parameters",
+                "pBastionAmi"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 192
+            }
+        },
+        "Message": "Parameter pBastionAmi should be of type [AWS::EC2::Image::Id, AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>]",
+        "Rule": {
+            "Description": "See if there are any refs for ImageId to a parameter of inappropriate type. Appropriate Types are [AWS::EC2::Image::Id, AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>]",
+            "Id": "W2506",
+            "ShortDescription": "Check if ImageId Parameters have the correct type",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#parmtypes"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 200
+            },
+            "Path": [
+                "Parameters",
+                "pBastionSSHCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 200
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pBastionSSHCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 232
+            },
+            "Path": [
+                "Parameters",
+                "pManagementCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 232
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pManagementCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 236
+            },
+            "Path": [
+                "Parameters",
+                "pManagementDMZSubnetACIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 236
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pManagementDMZSubnetACIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 28,
+                "LineNumber": 240
+            },
+            "Path": [
+                "Parameters",
+                "pManagementDMZSubnetBCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 240
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pManagementDMZSubnetBCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 32,
+                "LineNumber": 244
+            },
+            "Path": [
+                "Parameters",
+                "pManagementPrivateSubnetACIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 244
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pManagementPrivateSubnetACIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 32,
+                "LineNumber": 248
+            },
+            "Path": [
+                "Parameters",
+                "pManagementPrivateSubnetBCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 248
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pManagementPrivateSubnetBCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 18,
+                "LineNumber": 267
+            },
+            "Path": [
+                "Parameters",
+                "pProductionCIDR"
+            ],
+            "Start": {
+                "ColumnNumber": 3,
+                "LineNumber": 267
+            }
+        },
+        "Message": "AllowedPattern and/or AllowedValues for Parameter should be specified at Parameters/pProductionCIDR. Example for AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/([0-9]|[1-2][0-9]|3[0-2]))$'",
+        "Rule": {
+            "Description": "Check if a parameter is being used as a CIDR. If it is make sure it has allowed values regex comparisons",
+            "Id": "W2509",
+            "ShortDescription": "CIDR Parameters have allowed values",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 322
+            },
+            "Path": [
+                "Resources",
+                "rDHCPoptions",
+                "Properties",
+                "DomainName",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 322
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 19,
+                "LineNumber": 343
+            },
+            "Path": [
+                "Resources",
+                "rDeepSecurityInfrastructureTemplate",
+                "Properties",
+                "Parameters",
+                "CfnUrlPrefix",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 343
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 388
+            },
+            "Path": [
+                "Resources",
+                "rDeepSecurityInfrastructureTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 388
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 417
+            },
+            "Path": [
+                "Resources",
+                "rGWAttachmentMgmtIGW",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 417
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rIGWManagement), dependency already enforced by a \"Ref\" at Resources/rGWAttachmentMgmtIGW/Properties/InternetGatewayId/Ref",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 42,
+                "LineNumber": 480
+            },
+            "Path": [
+                "Resources",
+                "rMgmtBastionInstance",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 480
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rDeepSecurityInfrastructureTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/rMgmtBastionInstance/Metadata/AWS::CloudFormation::Init/installDeepSecurityAgent/commands/3-activate-DSA/command/Fn::Join/1/1/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 42,
+                "LineNumber": 480
+            },
+            "Path": [
+                "Resources",
+                "rMgmtBastionInstance",
+                "DependsOn",
+                0
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 480
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rDeepSecurityInfrastructureTemplate), dependency already enforced by a \"Fn:GetAtt\" at Resources/rMgmtBastionInstance/Metadata/AWS::CloudFormation::Init/installDeepSecurityAgent/commands/0-download-DSA/command/Fn::Join/1/1/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 25,
+                "LineNumber": 491
+            },
+            "Path": [
+                "Resources",
+                "rMgmtBastionInstance",
+                "Metadata",
+                "AWS::CloudFormation::Init",
+                "installDeepSecurityAgent",
+                "commands",
+                "0-download-DSA",
+                "command",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 17,
+                "LineNumber": 491
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 25,
+                "LineNumber": 504
+            },
+            "Path": [
+                "Resources",
+                "rMgmtBastionInstance",
+                "Metadata",
+                "AWS::CloudFormation::Init",
+                "installDeepSecurityAgent",
+                "commands",
+                "3-activate-DSA",
+                "command",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 17,
+                "LineNumber": 504
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 19,
+                "LineNumber": 527
+            },
+            "Path": [
+                "Resources",
+                "rMgmtBastionInstance",
+                "Properties",
+                "UserData",
+                "Fn::Base64",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 11,
+                "LineNumber": 527
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Informational",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 579
+            },
+            "Path": [
+                "Resources",
+                "rNatInstanceTemplate",
+                "Properties",
+                "TemplateURL",
+                "Fn::Join"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 579
+            }
+        },
+        "Message": "Prefer using Fn::Sub over Fn::Join with an empty delimiter",
+        "Rule": {
+            "Description": "Prefer a sub instead of Join when using a join delimiter that is empty",
+            "Id": "I1022",
+            "ShortDescription": "Use Sub instead of Join",
+            "Source": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 583
+            },
+            "Path": [
+                "Resources",
+                "rNatInstanceTemplate",
+                "Properties",
+                "TimeoutInMinutes"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 583
+            }
+        },
+        "Message": "Property Resources/rNatInstanceTemplate/Properties/TimeoutInMinutes should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 686
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupBastion",
+                "Properties",
+                "SecurityGroupEgress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 686
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupBastion/Properties/SecurityGroupEgress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 688
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupBastion",
+                "Properties",
+                "SecurityGroupEgress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 688
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupBastion/Properties/SecurityGroupEgress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 692
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupBastion",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 692
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupBastion/Properties/SecurityGroupIngress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 694
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupBastion",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 694
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupBastion/Properties/SecurityGroupIngress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 706
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupPeered",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 706
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupPeered/Properties/SecurityGroupIngress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 708
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupPeered",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 708
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupPeered/Properties/SecurityGroupIngress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 721
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupSSHFromMgmt",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 721
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupSSHFromMgmt/Properties/SecurityGroupIngress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 723
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupSSHFromMgmt",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 723
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupSSHFromMgmt/Properties/SecurityGroupIngress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 736
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 736
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/0/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 738
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                0,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 738
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/0/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 17,
+                "LineNumber": 741
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                1,
+                "FromPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 741
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/1/FromPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 15,
+                "LineNumber": 743
+            },
+            "Path": [
+                "Resources",
+                "rSecurityGroupVpcNat",
+                "Properties",
+                "SecurityGroupIngress",
+                1,
+                "ToPort"
+            ],
+            "Start": {
+                "ColumnNumber": 9,
+                "LineNumber": 743
+            }
+        },
+        "Message": "Property Resources/rSecurityGroupVpcNat/Properties/SecurityGroupIngress/1/ToPort should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 25,
+                "LineNumber": 754
+            },
+            "Path": [
+                "Resources",
+                "rVPCManagement",
+                "Properties",
+                "EnableDnsHostnames"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 754
+            }
+        },
+        "Message": "Property Resources/rVPCManagement/Properties/EnableDnsHostnames should be of type Boolean",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_vpc_management.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 23,
+                "LineNumber": 755
+            },
+            "Path": [
+                "Resources",
+                "rVPCManagement",
+                "Properties",
+                "EnableDnsSupport"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 755
+            }
+        },
+        "Message": "Property Resources/rVPCManagement/Properties/EnableDnsSupport should be of type Boolean",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    }
+]

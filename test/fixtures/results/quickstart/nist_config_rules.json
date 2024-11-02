@@ -1,0 +1,162 @@
+[
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_config_rules.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 35
+            },
+            "Path": [
+                "Resources",
+                "rAMIComplianceFunction",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 35
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rConfigRulesLambdaRole), dependency already enforced by a \"Fn:GetAtt\" at Resources/rAMIComplianceFunction/Properties/Role/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_config_rules.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 94
+            },
+            "Path": [
+                "Resources",
+                "rAMIComplianceFunction",
+                "Properties",
+                "Runtime"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 94
+            }
+        },
+        "Message": "Deprecated runtime (nodejs) specified. Updating disabled since 2016-10-31, please consider to update to nodejs10.x",
+        "Rule": {
+            "Description": "Check if an EOL Lambda Runtime is specified and give an error if used. ",
+            "Id": "E2531",
+            "ShortDescription": "Check if EOL Lambda Function Runtimes are used",
+            "Source": "https://docs.aws.amazon.com/lambda/latest/dg/runtime-support-policy.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_config_rules.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 95
+            },
+            "Path": [
+                "Resources",
+                "rAMIComplianceFunction",
+                "Properties",
+                "Timeout"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 95
+            }
+        },
+        "Message": "Property Resources/rAMIComplianceFunction/Properties/Timeout should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_config_rules.yaml",
+        "Level": "Warning",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 98
+            },
+            "Path": [
+                "Resources",
+                "rCloudTrailValidationFunction",
+                "DependsOn"
+            ],
+            "Start": {
+                "ColumnNumber": 5,
+                "LineNumber": 98
+            }
+        },
+        "Message": "Obsolete DependsOn on resource (rConfigRulesLambdaRole), dependency already enforced by a \"Fn:GetAtt\" at Resources/rCloudTrailValidationFunction/Properties/Role/Fn::GetAtt",
+        "Rule": {
+            "Description": "Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.",
+            "Id": "W3005",
+            "ShortDescription": "Check obsolete DependsOn configuration for Resources",
+            "Source": "https://github.com/nholuongut/aws-templates-for-cloudformation"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_config_rules.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 159
+            },
+            "Path": [
+                "Resources",
+                "rCloudTrailValidationFunction",
+                "Properties",
+                "Runtime"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 159
+            }
+        },
+        "Message": "Deprecated runtime (nodejs) specified. Updating disabled since 2016-10-31, please consider to update to nodejs10.x",
+        "Rule": {
+            "Description": "Check if an EOL Lambda Runtime is specified and give an error if used. ",
+            "Id": "E2531",
+            "ShortDescription": "Check if EOL Lambda Function Runtimes are used",
+            "Source": "https://docs.aws.amazon.com/lambda/latest/dg/runtime-support-policy.html"
+        }
+    },
+    {
+        "Filename": "test/fixtures/templates/quickstart/nist_config_rules.yaml",
+        "Level": "Error",
+        "Location": {
+            "End": {
+                "ColumnNumber": 14,
+                "LineNumber": 160
+            },
+            "Path": [
+                "Resources",
+                "rCloudTrailValidationFunction",
+                "Properties",
+                "Timeout"
+            ],
+            "Start": {
+                "ColumnNumber": 7,
+                "LineNumber": 160
+            }
+        },
+        "Message": "Property Resources/rCloudTrailValidationFunction/Properties/Timeout should be of type Integer",
+        "Rule": {
+            "Description": "Checks resource property values with Primitive Types for values that match those types.",
+            "Id": "E3012",
+            "ShortDescription": "Check resource properties values",
+            "Source": "https://github.com/nholuongut/cloudformation-python-linter/blob/master/docs/cfn-resource-specification.md#valueprimitivetype"
+        }
+    }
+]
